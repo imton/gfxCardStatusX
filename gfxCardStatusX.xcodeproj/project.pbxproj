@@ -10,6 +10,7 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* gfxCardStatusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* gfxCardStatusAppDelegate.m */; };
 		3D71CFBC1CC29EF000BF81E1 /* PowerSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71CFBB1CC29EF000BF81E1 /* PowerSensor.m */; };
+		3DD5286E8A10CE225F6A96EC /* libPods-gfxCardStatusX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC4DB7EE44E4EDB0F764AF3 /* libPods-gfxCardStatusX.a */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -42,7 +43,6 @@
 		A1ED2D1B158859DE00B99CDE /* GSStartup.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED2D1A158859DE00B99CDE /* GSStartup.m */; };
 		A1ED2D1F15885D6A00B99CDE /* GSNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED2D1E15885D6900B99CDE /* GSNotifier.m */; };
 		A1ED2D22158860FB00B99CDE /* GSMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ED2D21158860FA00B99CDE /* GSMenuController.m */; };
-		B494671523BCD065FB39E476 /* libPods-gfxCardStatus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0811089DD7BA0527ACE04B /* libPods-gfxCardStatus.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,12 +68,12 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		311DD6B64008B0ACF2CF0F23 /* Pods-gfxCardStatus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gfxCardStatus.release.xcconfig"; path = "Pods/Target Support Files/Pods-gfxCardStatus/Pods-gfxCardStatus.release.xcconfig"; sourceTree = "<group>"; };
+		2CC4DB7EE44E4EDB0F764AF3 /* libPods-gfxCardStatusX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gfxCardStatusX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D71CFBA1CC29EF000BF81E1 /* PowerSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerSensor.h; sourceTree = "<group>"; };
 		3D71CFBB1CC29EF000BF81E1 /* PowerSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerSensor.m; sourceTree = "<group>"; };
 		3D71CFBD1CC29F2500BF81E1 /* Sensor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sensor.h; sourceTree = "<group>"; };
-		5D0811089DD7BA0527ACE04B /* libPods-gfxCardStatus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gfxCardStatus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7056663514963D80009F10BB /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7BCB3E08FA93E51B253B5C31 /* Pods-gfxCardStatusX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gfxCardStatusX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gfxCardStatusX/Pods-gfxCardStatusX.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* gfxCardStatusX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "gfxCardStatusX-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* gfxCardStatusX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gfxCardStatusX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A107E47515F713F300708257 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		A1ED2D20158860F900B99CDE /* GSMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMenuController.h; sourceTree = "<group>"; };
 		A1ED2D21158860FA00B99CDE /* GSMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMenuController.m; sourceTree = "<group>"; };
 		A1F4FB0F13C6D58B002D38D5 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F8497F2D6BDC1A9688953954 /* Pods-gfxCardStatus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gfxCardStatus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gfxCardStatus/Pods-gfxCardStatus.debug.xcconfig"; sourceTree = "<group>"; };
+		C8154B99B204ABAAE4666B98 /* Pods-gfxCardStatusX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gfxCardStatusX.release.xcconfig"; path = "Pods/Target Support Files/Pods-gfxCardStatusX/Pods-gfxCardStatusX.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +154,7 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				A1E07D581194B42100683B07 /* IOKit.framework in Frameworks */,
 				A1E07E111194B42B00683B07 /* ApplicationServices.framework in Frameworks */,
-				B494671523BCD065FB39E476 /* libPods-gfxCardStatus.a in Frameworks */,
+				3DD5286E8A10CE225F6A96EC /* libPods-gfxCardStatusX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				CAFF256C88ACD226D44BF4E8 /* Pods */,
+				89DA83A5B3467D587CA15B3F /* Pods */,
 			);
 			name = gfxCardStatus;
 			sourceTree = "<group>";
@@ -233,9 +233,18 @@
 			children = (
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
-				5D0811089DD7BA0527ACE04B /* libPods-gfxCardStatus.a */,
+				2CC4DB7EE44E4EDB0F764AF3 /* libPods-gfxCardStatusX.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89DA83A5B3467D587CA15B3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BCB3E08FA93E51B253B5C31 /* Pods-gfxCardStatusX.debug.xcconfig */,
+				C8154B99B204ABAAE4666B98 /* Pods-gfxCardStatusX.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		A11599C813D42A3D0097E4BC /* Preferences */ = {
@@ -338,15 +347,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CAFF256C88ACD226D44BF4E8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F8497F2D6BDC1A9688953954 /* Pods-gfxCardStatus.debug.xcconfig */,
-				311DD6B64008B0ACF2CF0F23 /* Pods-gfxCardStatus.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -354,13 +354,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "gfxCardStatusX" */;
 			buildPhases = (
-				CAFCD26486DAF990362947F5 /* Check Pods Manifest.lock */,
+				21C9181B9CF7659F8B9F9987 /* 📦 Check Pods Manifest.lock */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				A159E5011184EC5D00E68428 /* CopyFiles */,
-				828B7D35BBE8914043F071EF /* Embed Pods Frameworks */,
-				1C9B24BD1D46ACB08E8E2D72 /* Copy Pods Resources */,
+				C78DBF72F7414BFEA213F5DD /* 📦 Embed Pods Frameworks */,
+				0BBAF1DCAEFAFB5988A218EB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -445,49 +445,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C9B24BD1D46ACB08E8E2D72 /* Copy Pods Resources */ = {
+		0BBAF1DCAEFAFB5988A218EB /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gfxCardStatus/Pods-gfxCardStatus-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gfxCardStatusX/Pods-gfxCardStatusX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		828B7D35BBE8914043F071EF /* Embed Pods Frameworks */ = {
+		21C9181B9CF7659F8B9F9987 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gfxCardStatus/Pods-gfxCardStatus-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CAFCD26486DAF990362947F5 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C78DBF72F7414BFEA213F5DD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gfxCardStatusX/Pods-gfxCardStatusX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -593,7 +593,7 @@
 /* Begin XCBuildConfiguration section */
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8497F2D6BDC1A9688953954 /* Pods-gfxCardStatus.debug.xcconfig */;
+			baseConfigurationReference = 7BCB3E08FA93E51B253B5C31 /* Pods-gfxCardStatusX.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -616,7 +616,7 @@
 		};
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 311DD6B64008B0ACF2CF0F23 /* Pods-gfxCardStatus.release.xcconfig */;
+			baseConfigurationReference = C8154B99B204ABAAE4666B98 /* Pods-gfxCardStatusX.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
