@@ -5,7 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 #use_frameworks!
 
-target 'gfxCardStatus' do
+target 'gfxCardStatusX' do
 	pod 'ReactiveCocoa', '~> 2.3.1'
 end
 

@@ -1,10 +1,12 @@
-# gfxCardStatus3
-by Cody Krieger
+# gfxCardStatusX
+originally by Cody Krieger
+X by Gaston Morixe
 
-gfxCardStatus is an open-source menu bar application for OS X that allows users
+gfxCardStatusX is an open-source menu bar application for OS X that allows users
 of dual GPU MacBook Pros to monitor the status of, and switch between said GPUs.
 
-This version brings back again Power Source detection.
+This version brings back again Power Source detection, based on gfxCardStatus by
+Cody Krieger.
 
 ## Building from source
 
@@ -14,7 +16,7 @@ In order to successfully build gfxCardStatus, you've got to have its submodules
 Either:
 
 ```
-git clone --recursive git://github.com/codykrieger/gfxCardStatus.git
+git clone --recursive git://github.com/imton/gfxCardStatusX.git
 ```
 
 Or, if you've already got the repo cloned:

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:gfxCardStatus.xcodeproj">
+      location = "group:/Users/gaston/Documents/Hack/gfxCardStatus-master/gfxCardStatusX.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
