@@ -1,0 +1,51 @@
+/* 
+   Localizable.strings
+   gfxCardStatus
+
+   Created by Maciej Krok on 2011-12-12.
+   Copyright 2011 Maciej Krok. All rights reserved.
+   
+   Corrections made by Bartosz Kaszewczuk on 2012-01-18
+ */
+
+/* Main menu */
+"About"   				= "O gfxCardStatus, v%%";
+"Update"				= "Sprawdź aktualizacje...";
+"Preferences"			= "Preferencje...";
+"SwitchGPUs"			= "Zmień GPU";
+"IntegratedOnly"		= "Tylko zintegrowana";
+"DiscreteOnly"			= "Tylko dedykowana";
+"DynamicSwitching"		= "Dynamicznie zmieniana";
+"Dependencies"			= "Zależności";
+"NoProcess"				= "Brak";
+"Quit"					= "Wyjdź";
+"Close"					= "Zamknij";
+"PowerSource"           = "Zródło zasilania: %%";
+"Battery"               = "Bateria";
+"ACAdapter"             = "Zasilacz sieciowy";
+
+/* Preferences window */
+"PrefTitle"				= "Preferencje gfxCardStatus";
+"PrefUpdate"			= "Sprawdź aktualizacje przy uruchomieniu";
+"PrefGrowl"				= "Używaj Growl-a";
+"PrefStartup"			= "Uruchom gfxCardStatus przy starcie systemu";
+"PrefLog"				= "Zapisuj wiadomości diagnostyczne w logu";
+"PrefRestoreState"		= "Przywróć ostatnio użyty tryb przy uruchomieniu";
+"PrefPowerSwitching"	= "Zmieniaj karty na podstawie źródła zasilania";
+"Integrated"            = "Zintegrowana";
+"Discrete"              = "Dedykowana";
+"Dynamic"               = "Dynamicznie";
+"OnBattery"             = "Na baterii:";
+"PluggedIn"             = "Na zasilaczu:";
+"General"               = "Ogólne";
+"Switching"             = "Switching";
+"Advanced"              = "Zaawansowane";
+"SmartMenuBarIcons"     = "Użyj inteligentnych ikonek w pasku menu";
+
+/* About box */
+"AboutTitle"			= "O gfxCardStatus";
+"AboutWebsite"			= "Strona www";
+
+/* Growl */
+"GrowlGPUChanged"       = "Zmieniono GPU";
+"GrowlGPUChangedMessage"           = "'%1$@' teraz w użyciu.";

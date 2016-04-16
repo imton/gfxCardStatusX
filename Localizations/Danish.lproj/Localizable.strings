@@ -1,0 +1,49 @@
+/* 
+   Localizable.strings
+   gfxCardStatus
+
+   Created by Allan Kimmer Jensenk on 13.08.10.
+   Copyright 2010 Allan Kimmer Jensen. All rights reserved.
+   www.saturate.dk
+ */
+
+/* Main menu */
+"About"					= "Om gfxCardStatus, v%%";
+"Update"				= "Tjek for Opdateringer…";
+"Preferences"			= "Indstillinger...";
+"SwitchGPUs"			= "Skift GPUs";
+"IntegratedOnly"		= "Kun Integrated";
+"DiscreteOnly"			= "Kun Discrete";
+"DynamicSwitching"		= "Skift Dynamisk";
+"Dependencies"			= "Dependencies";
+"NoProcess"				= "Ingen";
+"Quit"					= "Afslut";
+"Close"					= "Cool!";
+"PowerSource"           = "Power Source: %%";
+"Battery"               = "Battery";
+"ACAdapter"             = "AC Adapter";
+
+/* Preferences window */
+"PrefTitle"				= "gfxCardStatus Indstillinger";
+"PrefUpdate"			= "Tjek for opdateringer ved start";
+"PrefGrowl"				= "Brug Growl til at vise status ændringer";
+"PrefStartup"			= "kør gfxCardStatus ved opstart";
+"PrefLog"				= "Log diagnostiske beskeder til konsol";
+"PrefRestoreState"		= "Gendan sidst anvendte tilstand ved start";
+"PrefPowerSwitching"	= "Brug strømkilde baseret skiftning";
+"Integrated"            = "Integrated";
+"Discrete"              = "Discrete";
+"Dynamic"               = "Dynamic";
+"OnBattery"             = "On Battery:";
+"PluggedIn"             = "Plugged In:";
+"General"               = "General";
+"Switching"             = "Switching";
+"SmartMenuBarIcons"     = "Use smart menu bar icons";
+
+/* About box */
+"AboutTitle"			= "Om gfxCardStatus";
+"AboutWebsite"			= "Website";
+
+/* Growl */
+"GrowlGPUChanged"       = "GPU changed";
+"GrowlGPUChangedMessage"           = "'%1$@' now in use.";

@@ -1,0 +1,49 @@
+/* 
+   Localizable.strings
+   gfxCardStatus
+
+   Created by Ygor Lemos on 19.11.10.
+   Copyright 2010 Ygor Lemos <ygbr@me.com>. All rights reserved.
+ */
+
+/* Main menu */
+"About"					= "Acerca do gfxCardStatus, v%%";
+"Update"				= "Procurar actualizações...";
+"Preferences"			= "Preferências...";
+"SwitchGPUs"			= "Alternar GPU";
+"IntegratedOnly"		= "Apenas integrado";
+"DiscreteOnly"			= "Apenas dedicado";
+"DynamicSwitching"		= "Mudança automática";
+"Dependencies"			= "Dependências";
+"NoProcess"				= "Nenhuma";
+"Quit"					= "Sair";
+"Close"					= "Sair";
+"PowerSource"           = "Alimentação: %%";
+"Battery"               = "Bateria";
+"ACAdapter"             = "Adaptador de corrente";
+
+/* Preferences window */
+"PrefTitle"				= "Preferências do gfxCardStatus";
+"PrefUpdate"			= "Procurar actualizações ao iniciar";
+"PrefGrowl"				= "Usar Growl para notificações de mudanças de estado";
+"PrefStartup"			= "Iniciar o gfxCardStatus no arranque";
+"PrefLog"				= "Registar mensagens de diagnósticos para a Consola";
+"PrefRestoreState"		= "Restaurar último estado ao iniciar";
+"PrefPowerSwitching"	= "Usar mudança automática em função da alimentação";
+"Integrated"            = "Integrado";
+"Discrete"              = "Dedicado";
+"Dynamic"               = "Mudança automática";
+"OnBattery"             = "Bateria:";
+"PluggedIn"             = "Adaptador de corrente:";
+"General"               = "Geral";
+"Switching"             = "A mudar";
+"Advanced"              = "Avançadas";
+"SmartMenuBarIcons"     = "Usar ícones inteligentes na barra de menus";
+
+/* About box */
+"AboutTitle"			= "Acerca do gfxCardStatus";
+"AboutWebsite"			= "Website";
+
+/* Growl */
+"GrowlGPUChanged"       = "Placa gráfica mudada!";
+"GrowlGPUChangedMessage"           = "em utilização.";

@@ -1,0 +1,48 @@
+/* 
+   Localizable.strings
+   gfxCardStatus
+
+   Created by Anton Eriksson on 30.08.10.
+   Copyright 2010 Anton Eriksson. All rights reserved.
+ */
+
+/* Main menu */
+"About"					= "Om gfxCardStatus, v%%";
+"Update"				= "Sök efter uppdateringar...";
+"Preferences"			= "Inställningar...";
+"SwitchGPUs"			= "Växla GPU";
+"IntegratedOnly"		= "Enbart integrerad";
+"DiscreteOnly"			= "Enbart dedikerad";
+"DynamicSwitching"		= "Dynamisk grafikväxling";
+"Dependencies"			= "Programberoenden";
+"NoProcess"				= "Ingen";
+"Quit"					= "Avsluta";
+"Close"					= "Cool!";
+"PowerSource"           = "Strömkälla: %%";
+"Battery"               = "Battery";
+"ACAdapter"             = "AC Adapter";
+
+/* Preferences window */
+"PrefTitle"				= "gfxCardStatus inställningar";
+"PrefUpdate"			= "Sök efter uppdateringar vid start";
+"PrefGrowl"				= "Använd Growl för statusmeddelanden";
+"PrefStartup"			= "Starta gfxCardStatus vid inloggning";
+"PrefLog"				= "Logga diagnosmeddelanden till konsoll";
+"PrefRestoreState"		= "Återställ senast använda läge vid start";
+"PrefPowerSwitching"	= "Basera växling på strömkälla";
+"Integrated"            = "Integrated";
+"Discrete"              = "Discrete";
+"Dynamic"               = "Dynamic";
+"OnBattery"             = "Batteri:";
+"PluggedIn"             = "AC-adapter:";
+"General"               = "General";
+"Switching"             = "Switching";
+"SmartMenuBarIcons"     = "Use smart menu bar icons";
+
+/* About box */
+"AboutTitle"			= "Om gfxCardStatus";
+"AboutWebsite"			= "Webbsida";
+
+/* Growl */
+"GrowlGPUChanged"       = "GPU ändrad";
+"GrowlGPUChangedMessage"           = "'%1$@' används nu.";

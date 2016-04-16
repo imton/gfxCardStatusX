@@ -1,0 +1,58 @@
+/* 
+   Localizable.strings
+   gfxCardStatus
+
+   Created by Tom Klaver on 8/22/2012.
+   Copyright 2012 Tom Klaver. All rights reserved.
+ */
+
+/* Main menu */
+"About"					= "Over gfxCardStatus, v%%";
+"Update"				= "Zoek naar nieuwe versies…";
+"Preferences"			= "Voorkeuren…";
+"SwitchGPUs"			= "Wissel GPU's";
+"IntegratedOnly"		= "Alleen geïntegreerd";
+"DiscreteOnly"			= "Alleen discreet";
+"DynamicSwitching"		= "Wissel dynamisch";
+"Dependencies"			= "Afhankelijke programma's";
+"NoProcess"				= "Niets";
+"Quit"					= "Stop";
+"Close"					= "Sluiten";
+"PowerSource"           = "Voedingsbron: %%";
+"Battery"               = "Batterij";
+"ACAdapter"             = "Lichtnetadapter";
+
+/* Preferences window */
+"PrefTitle"				= "gfxCardStatus-voorkeuren";
+"PrefUpdate"			= "Zoek naar nieuwe versies bij opstarten";
+"PrefGrowl"				= "Gebruik Growl voor berichten";
+"PrefStartup"			= "Open gfxCardStatus na inloggen";
+"PrefLog"				= "Sla diagnostische berichten op in console";
+"PrefRestoreState"		= "Herstel laatst gebruikte modus bij opstarten";
+"PrefPowerSwitching"	= "Wissel op basis van voedingsbron";
+"Integrated"            = "Geïntegreerd";
+"Discrete"              = "Discreet";
+"Dynamic"               = "Dynamisch";
+"OnBattery"             = "Met batterij als voedingsbron:";
+"PluggedIn"             = "Met lichtnetadapter als voedingsbron:";
+"General"               = "Algemeen";
+"Switching"             = "Wisselen";
+"Advanced"              = "Geavanceerd";
+"SmartMenuBarIcons"     = "Gebruik slimme symbolen in menubalk";
+
+/* About box */
+"AboutTitle"			= "Over gfxCardStatus";
+"AboutWebsite"			= "Website";
+
+/* Growl */
+"GrowlGPUChanged"           = "GPU aangepast";
+"GrowlGPUChangedMessage"    = "'%1$@' wordt nu gebruikt.";
+
+/* Startup box */
+"ThanksForDownloading"      = "Bedankt voor het downloaden van gfxCardStatus!";
+"PleaseConsiderDonating"    = "Als u gfxCardStatus graag gebruikt, overweeg dan om te doneren. Hiermee stimuleert u de ontwikkeling en helpt u met de kosten voor gebruik van de servers. U kunt de doneerkoppeling en FAQ (die u echt eens moet lezen) vinden op de gfxCardStatus-website:";
+"DontShowAgain"             = "Toon niet opnieuw!";
+
+/* Unsupported machine box */
+"UnsupportedMachine"    = "U gebruikt een systeem dat niet door gfxCardStatus wordt ondersteund. Verzeker u ervan dat u een MacBook Pro gebruikt met dubbele GPU's.";
+"OhISee"                = "Ah, ik begrijp het.";

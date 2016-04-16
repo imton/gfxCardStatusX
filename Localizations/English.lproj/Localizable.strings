@@ -1,0 +1,64 @@
+/* 
+   Localizable.strings
+   gfxCardStatus
+
+   Created by Thierry Coppey on 15.05.10.
+   Copyright 2010 Thierry Coppey. All rights reserved.
+ */
+
+/* Main menu */
+"About"					= "About gfxCardStatus, v%%";
+"Update"				= "Check for Updates...";
+"Preferences"			= "Preferences...";
+"Card"					= "GPU: %%";
+"SwitchGPUs"			= "Switch GPUs";
+"IntegratedOnly"		= "Integrated Only";
+"DiscreteOnly"			= "Discrete Only";
+"DynamicSwitching"		= "Dynamic Switching";
+"Dependencies"			= "Dependencies";
+"NoProcess"				= "None";
+"Quit"					= "Quit";
+"Close"					= "Cool!";
+"PowerSource"           = "Power Source: %%";
+"Battery"               = "Battery";
+"ACAdapter"             = "AC Adapter";
+"VisitWebsite"          = "Visit website (%%)...";
+
+/* Preferences window */
+"PrefTitle"				= "gfxCardStatus Preferences";
+"PrefUpdate"			= "Check for updates at startup";
+"PrefGrowl"				= "Use Growl to display GPU change notifications";
+"PrefStartup"			= "Load gfxCardStatus at startup";
+"PrefLog"				= "Log diagnostic messages to the console";
+"PrefRestoreState"		= "Restore last used mode at startup";
+"PrefPowerSwitching"	= "Use power source-based switching";
+"Integrated"            = "Integrated";
+"Discrete"              = "Discrete";
+"Dynamic"               = "Dynamic";
+"OnBattery"             = "On Battery:";
+"PluggedIn"             = "Plugged In:";
+"General"               = "General";
+"Switching"             = "Switching";
+"Advanced"              = "Advanced";
+"SmartMenuBarIcons"     = "Use smart menu bar icons";
+
+/* About box */
+"AboutTitle"			= "About gfxCardStatus";
+"AboutWebsite"			= "Website";
+
+/* Growl */
+"GrowlGPUChanged"           = "GPU changed";
+"GrowlGPUChangedMessage"    = "'%1$@' now in use.";
+
+/* Startup box */
+"ThanksForDownloading"      = "Thanks for downloading gfxCardStatus!";
+"PleaseConsiderDonating"    = "If you find it useful, please consider donating to support development and hosting costs. You can find the donate link, and the FAQ page (which you should REALLY read) at the gfxCardStatus website:";
+"DontShowAgain"             = "Don't show this again!";
+
+/* Unsupported machine box */
+"UnsupportedMachine"    = "You are using a system that gfxCardStatus does not support. Please ensure that you are using a MacBook Pro with dual GPUs.";
+"OhISee"                = "Oh, I see.";
+
+/* Miscellaneous notifications */
+"Can'tSwitchToIntegratedOnlySingular" = "You can't switch to Integrated Only while the following item is running:";
+"Can'tSwitchToIntegratedOnlyPlural" = "You can't switch to Integrated Only while the following items are running:";
